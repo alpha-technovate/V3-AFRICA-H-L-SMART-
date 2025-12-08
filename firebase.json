@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "site": "smart-bridge-2-0",
+    "source": ".",
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  },
+ "emulators": {
+  "firestore": {
+    "port": 5800
+  },
+  "hosting": {
+    "port": 5100
+  },
+  "ui": {
+    "enabled": true,
+    "port": 4300
+  },
+  "hub": {
+    "port": 4900
+  },
+  "logging": {
+    "port": 4501
+  },
+  "singleProjectMode": true
+}
+}

@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "doc1",
+      "description": "Avatar for Dr. Evelyn Reed",
+      "imageUrl": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGRvY3RvcnxlbnwwfHx8fDE3NjMwMjExOTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman doctor"
+    },
+    {
+      "id": "doc2",
+      "description": "Avatar for Dr. Kenji Tanaka",
+      "imageUrl": "https://images.unsplash.com/photo-1632054224659-280be3239aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBkb2N0b3J8ZW58MHx8fHwxNzYzMDIxMTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man doctor"
+    },
+    {
+      "id": "doc3",
+      "description": "Avatar for Dr. Aisha Khan",
+      "imageUrl": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGRvY3RvcnxlbnwwfHx8fDE3NjMwMjExOTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman doctor"
+    }
+  ]
+}

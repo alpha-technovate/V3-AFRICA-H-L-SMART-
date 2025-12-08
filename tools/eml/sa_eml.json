@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Paracetamol",
+    "strength": "500 mg",
+    "formulation": "tablet",
+    "class": "Analgesic / Antipyretic",
+    "atc": "N02BE01",
+    "adult_dose": "500–1000 mg every 6 hours (max 4 g/day)",
+    "pediatric_dose": "15 mg/kg every 6 hours",
+    "indications": ["pain", "fever"],
+    "essential_level": "primary"
+  },
+  {
+    "name": "Ibuprofen",
+    "strength": "200 mg",
+    "formulation": "tablet",
+    "class": "NSAID",
+    "atc": "M01AE01",
+    "adult_dose": "200–400 mg every 6–8 hours",
+    "pediatric_dose": "10 mg/kg every 6–8 hours",
+    "indications": ["pain", "inflammation"],
+    "essential_level": "primary"
+  },
+  {
+    "name": "Metronidazole",
+    "strength": "400 mg",
+    "formulation": "tablet",
+    "class": "Antibiotic",
+    "atc": "J01XD01",
+    "adult_dose": "400 mg every 8 hours",
+    "pediatric_dose": "7.5 mg/kg every 8 hours",
+    "indications": ["anaerobic infections", "giardia", "amoeba"],
+    "essential_level": "primary"
+  },
+  {
+    "name": "Amlodipine",
+    "strength": "5 mg",
+    "formulation": "tablet",
+    "class": "Calcium channel blocker",
+    "atc": "C08CA01",
+    "adult_dose": "5–10 mg once daily",
+    "pediatric_dose": "Not recommended",
+    "indications": ["hypertension", "angina"],
+    "essential_level": "primary"
+  },
+  {
+    "name": "Furosemide",
+    "strength": "40 mg",
+    "formulation": "tablet",
+    "class": "Loop diuretic",
+    "atc": "C03CA01",
+    "adult_dose": "20–40 mg once or twice daily",
+    "pediatric_dose": "1 mg/kg/dose",
+    "indications": ["heart failure", "oedema"],
+    "essential_level": "hospital"
+  },
+  {
+    "name": "Enalapril",
+    "strength": "5 mg",
+    "formulation": "tablet",
+    "class": "ACE inhibitor",
+    "atc": "C09AA02",
+    "adult_dose": "5–20 mg daily",
+    "pediatric_dose": "0.08 mg/kg/day",
+    "indications": ["hypertension", "heart failure"],
+    "essential_level": "primary"
+  }
+]

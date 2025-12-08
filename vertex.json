@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "studio-6979351034-efe39",
+  "private_key_id": "3d6a1531aa747e392ea90e47e2d29d5dfac37f9f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIE...snipped...\n-----END PRIVATE KEY-----\n",
+  "client_email": "vertex-gemini@studio-6979351034-efe39.iam.gserviceaccount.com",
+  "client_id": "116174701306992731539",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vertex-gemini%40studio-6979351034-efe39.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

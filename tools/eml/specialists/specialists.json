@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Dr Sanjay Maharaj",
+    "role": "Cardiologist",
+    "description": "Experienced cardiologist and KZN pioneer in coronary lithotripsy.",
+    "contact": "0837775536"
+  },
+  {
+    "name": "Dr J Pillay",
+    "role": "Cardiothoracic Surgeon",
+    "description": "Pioneering advanced heart care.",
+    "contact": "0828556278"
+  },
+  {
+    "name": "Dr J Chen",
+    "role": "Cardiothoracic Surgeon",
+    "description": "Leading Cardiothoracic Surgeon.",
+    "contact": "0843168288"
+  },
+  {
+    "name": "Dr T Gwila",
+    "role": "Cardiothoracic Surgeon",
+    "description": "Expert Cardiothoracic Surgeon.",
+    "contact": "0793063990"
+  },
+  {
+    "name": "Dr D Gounder",
+    "role": "Specialist Physician",
+    "description": "Expert care using the latest in the medical field.",
+    "contact": "0844856927"
+  },
+  {
+    "name": "Dr Y Ramkilawan",
+    "role": "Pulmonologist",
+    "description": "Specialist Physician & Pulmonologist.",
+    "contact": "0723365796"
+  },
+  {
+    "name": "Dr O Nonkala",
+    "role": "Nephrologist",
+    "description": "Nephrologist, Cert. Nephrology, MMed (Post graduate at UKZN).",
+    "contact": "0605458746"
+  },
+  {
+    "name": "Dr M Singh",
+    "role": "Nephrologist",
+    "description": "MMed (UKZN), along with a Certificate in Nephrology (SA).",
+    "contact": "0725655476"
+  },
+  {
+    "name": "Dr Abobaker Benamro",
+    "role": "General Surgeon",
+    "description": "Providing expert surgical care.",
+    "contact": "0837212822"
+  },
+  {
+    "name": "Prof Francis Smith",
+    "role": "Cardiothoracic Surgeon",
+    "description": "Renowned cardiothoracic surgeon.",
+    "contact": "0827741087"
+  },
+  {
+    "name": "RN Deen Shaik",
+    "role": "Support Agent",
+    "description": "Dedicated support agent – connecting you personally to expert care.",
+    "contact": null
+  },
+  {
+    "name": "Khanyisile Buthelezi",
+    "role": "Support Agent",
+    "description": "Personal liaison to top specialists – expert care is just a call away.",
+    "contact": "0767270722"
+  }
+]

@@ -1,0 +1,138 @@
+/* ================================================
+   SMARTBRIDGE GLOBAL STYLE SHEET (PURE CSS VERSION)
+   ================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  background-color: #f4f9f8;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ================================================
+   LAYOUT UTILITIES
+   ================================================ */
+
+.main-page-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 64px);
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 1rem;
+}
+
+/* ================================================
+   SIDEBAR ANIMATION
+   ================================================ */
+
+.smartbridge-sidebar {
+  width: 260px;
+  transition: all 0.25s ease;
+  transform: translateX(0);
+}
+
+.smartbridge-sidebar.collapsed {
+  transform: translateX(-220px);
+}
+
+.smartbridge-sidebar:hover {
+  transform: translateX(0);
+}
+
+/* ================================================
+   CHAT BUBBLES
+   ================================================ */
+
+.ai-chat-bubble-user {
+  background: #0d9488;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 18px;
+  border-bottom-right-radius: 4px;
+  font-size: 14px;
+}
+
+.ai-chat-bubble-assistant {
+  background: #f3f4f6;
+  color: #111827;
+  padding: 8px 12px;
+  border-radius: 18px;
+  border-bottom-left-radius: 4px;
+  font-size: 14px;
+}
+
+.ai-scroll {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* ================================================
+   INPUT FIELDS
+   ================================================ */
+
+input, textarea, select {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 3px solid #0d9488;
+  border-color: #0d9488;
+}
+
+/* ================================================
+   CUSTOM SCROLLBAR (Chrome + Edge)
+   ================================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e7f3f1;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #82c7be;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+
+/* ================================================
+   MOBILE
+   ================================================ */
+
+@media (max-width: 768px) {
+  .smartbridge-sidebar {
+    position: fixed;
+    z-index: 50;
+    height: 100vh;
+    transform: translateX(-260px);
+  }
+
+  .smartbridge-sidebar.open {
+    transform: translateX(0);
+  }
+
+  .main-page-scroll {
+    height: calc(100vh - 56px);
+    padding-bottom: 4rem;
+  }
+
+  .sb-hide-mobile {
+    display: none;
+  }
+}
