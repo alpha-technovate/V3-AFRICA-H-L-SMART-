@@ -1,28 +1,37 @@
 {
   "hosting": {
     "site": "smart-bridge-2-0",
-    "source": ".",
-    "frameworksBackend": {
-      "region": "us-central1"
-    }
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   },
- "emulators": {
-  "firestore": {
-    "port": 5800
-  },
-  "hosting": {
-    "port": 5100
-  },
-  "ui": {
-    "enabled": true,
-    "port": 4300
-  },
-  "hub": {
-    "port": 4900
-  },
-  "logging": {
-    "port": 4501
-  },
-  "singleProjectMode": true
-}
+  "emulators": {
+    "firestore": {
+      "port": 5800
+    },
+    "hosting": {
+      "port": 5100
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4300
+    },
+    "hub": {
+      "port": 4900
+    },
+    "logging": {
+      "port": 4501
+    },
+    "singleProjectMode": true
+  }
 }

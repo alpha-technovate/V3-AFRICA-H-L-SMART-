@@ -3,18 +3,12 @@
  */
 
 import { readFileSync } from "fs";
-import { initializeApp } from "firebase/app";
-import {
-  getFirestore,
-  collection,
-  doc,
-  setDoc
-} from "firebase/firestore";
+import { getFirestore, collection, doc, setDoc } from "firebase/firestore";
 
-import { firebaseConfig } from "../../src/lib/firebaseConfig";
+// Import the already initialized Firebase app
+import app from "../../src/lib/firebaseConfig";
 
-// Init Firebase (Web SDK — Admin SDK not allowed)
-const app = initializeApp(firebaseConfig);
+// Firestore instance
 const db = getFirestore(app);
 
 async function importEML() {
